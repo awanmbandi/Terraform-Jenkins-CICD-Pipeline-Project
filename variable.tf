@@ -19,7 +19,7 @@ variable "dev-vm-az" {
 # machine image
 variable "dev-vm-image" {
   type    = string  
-  default = "debian-cloud/debian-9"
+  default = "debian-cloud/debian-10"
 }
 
 # Machine network
