@@ -1,6 +1,6 @@
 # GCE Instance
 # Use Service Accounts When Running Terraform Using a GCP Resource (GCE VM's)
-resource "google_compute_instance" "impersonate-terraform-instance-sa" {
+resource "google_compute_instance" "terraform-vm-instance" {
   name         = var.dev-vm-name
   machine_type = var.dev-vm-machine-type
   zone         = var.dev-vm-az
