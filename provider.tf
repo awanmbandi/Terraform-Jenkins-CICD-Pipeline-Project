@@ -14,7 +14,7 @@ terraform {
 # Terraform Provider Block
 provider "google" {
   # Configuratio options
-  project     = "mbandianyere-dev"
+  project     = "test-environment-te-project"
   region      = "us-central1"
   zone        = "us-central1-a"
 }
