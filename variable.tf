@@ -1,7 +1,7 @@
 # VM Name
 variable "dev-vm-name" {
   type    = string  
-  default = "impersonate-terraform-instance-sa"
+  default = "terraform-vm"
 }
 
 # Machine type variable
