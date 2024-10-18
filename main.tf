@@ -17,11 +17,3 @@ resource "google_compute_instance" "terraform-vm-instance" {
     }
   }
 }
-
-/*
-name = "impersonate-terraform-instance-sa"
-machine_type = "e2-medium"
-zone         = "us-central1-a"
-image = "debian-cloud/debian-9"
-network = "default"
-*/
